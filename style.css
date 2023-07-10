@@ -54,3 +54,68 @@
     background-color: white;
     color: black;
 }
+.service-container{
+    height: 100vh;
+    background-image: url(images/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+    margin-bottom:20px ;
+}
+.box{
+    padding: 50px;
+    background-color: white;
+    width: 100px;
+    height: 120px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: lighter;
+    
+    
+}
+.service-d{
+    width: 50%;}
+
+    .two-box{
+         display: flex;
+         gap: 3px;
+         
+    }
+    .author-img{
+        width: 70px;
+        height: 70px;
+        border-radius:35px ;
+    }
+    .author-container{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .profile-container{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        border-right: 2px solid red;
+        padding-right:50px;
+        
+    }
+    .d-btn{
+        color: red;
+        border-radius: 20px;
+        padding: 8px;
+        font-size:xx-small;
+        border: none;
+        
+    }
