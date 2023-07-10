@@ -53,6 +53,10 @@
 .btnn{
     background-color: white;
     color: black;
+    
+    
+    
+    
 }
 .service-container{
     height: 100vh;
@@ -86,7 +90,11 @@
     
 }
 .service-d{
-    width: 50%;}
+    width: 50%;
+    margin-bottom: 7px;
+}
+    
+
 
     .two-box{
          display: flex;
@@ -113,9 +121,53 @@
     }
     .d-btn{
         color: red;
-        border-radius: 20px;
+        padding: 3px;
+        font-size:xx-small;
+        border: none;
+        border-radius: 30px;
+        
+    }
+    
+    .l-side-container{
+        padding: 10px;
+        margin: 20px;
+    }
+    .h-ser{
+        margin-top: 5px;
+        margin-bottom: 7px;
+    }
+    ol{
+        margin-bottom: 10px;
+    }
+    .ap-btn{
+        color:black;
         padding: 8px;
         font-size:xx-small;
         border: none;
-        
+        border-radius: 18px;
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+
+    }
+    .appointment-container{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        background-color: red;
+        border-radius: 10px;
+        margin-top: -30px;
+        height:22vh;
+        align-items: center;
+    }
+    .con{
+        margin-left: 10px;
+    }
+    .blog-titel{
+        color: black;
+        text-align: center;
+        margin-50px;
     }
